@@ -25,6 +25,9 @@ title: 这是一个虚构的故事——与Raspberry有关
 - USB接口的键鼠套装；
 - 面包板及各类杜邦线。
 
+![这就是爱！]({{ site.baseurl }}/images/ra1.jpg)
+
+![这就是爱爱！]({{ site.baseurl }}/images/ra2.jpg)
 
 以上大约花了小马五百元。在2015年，五百人民币大概等于现在的7000元。可以说，歌手的爸爸就是在当时决定对小马献出自己的一生。他的眼睛湿润了，只是因为小马在路口收货时候的情景映入了他的眼帘——这一切都似曾相识。
 
@@ -82,7 +85,7 @@ title: 这是一个虚构的故事——与Raspberry有关
 校长： 你在胡扯！崇洋媚外！
 
 
-歌手爸爸：校长，你看这里有四本书，都是树莓派的入门图书，还有树莓派的官网[www.raspberrypi.org]可以让全世界的树莓派用户交流和学习！
+歌手爸爸：校长，你看这里有四本书，都是树莓派的入门图书，还有[树莓派的官网](www.raspberrypi.org)可以让全世界的树莓派用户交流和学习！
 
 
 校长： 为什么要看四本？
@@ -95,8 +98,11 @@ title: 这是一个虚构的故事——与Raspberry有关
 - 《爱上Raspberry Pi》（交互式设计为主，亮点是Arduino的学习。）
 - 《玩转树莓派》（包含了Linux入门和服务器的应用，也对硬件扩展有所描述。）
 - 《Raspberry Pi入门指南》（简单的服务器；Python不作为主要的部分来陈述。）
+
 校长： 然并卵。为什么要看四本？
 
+
+![这就是爱爱！]({{ site.baseurl }}/images/ra3.jpg)
 
 歌手爸爸：其实，如果不深入研究的话，根本不用买书来学习。简单来说，Raspberry就是一个小型主板，可以安装Linux和windows系统。因为能耗小，可以当作服务器使用；因为小型，可以当作遥控的中介放置在某些机器人中。（校长根本就不想听。）我来举个例子：如何编译一个微博机器人。
 
@@ -260,7 +266,7 @@ if __name__ == "__main__":
 文件编写完成后，按f5运行两个有内容的py文件，可能会出现格式、编码和import问题。IDLE会帮助解决前面两个问题，import问题是因为缺少微博的SDK文件。
 
 
-在terminal中输入
+在terminal中输入:
 
 ```
 sudo apt-get install python-pip
@@ -268,25 +274,28 @@ sudo apt-get install python-pip
 ```
 
 
-安装pip之后，再输入
+安装pip之后，再输入:
 
 ```
 pip install sinaweibopy
 
 ```
-试运行send_weibo.py文件，成功的话便可以设置定时重复发送的计划。在terminal输入
+试运行send_weibo.py文件，成功的话便可以设置定时重复发送的计划。在terminal输入:
 
 ```
 sudo crontab –e
 
 ```
-在编辑界面输入
+在编辑界面输入:
 
 ```
 */10 * * * * python send_weibo.py
 ```
 
 然后按ctrl+x保存y，回车并退出。
+
+
+![这就是爱爱！]({{ site.baseurl }}/images/ra4.jpg)
 
 ------
 
@@ -296,5 +305,7 @@ sudo crontab –e
 
 ### 但日落日出永没变迁。
 
+
+![这就是爱爱！]({{ site.baseurl }}/images/ra5.jpg)
 
 歌手一直没有说自己叫什么名字，大概是怕被人人肉吧。
